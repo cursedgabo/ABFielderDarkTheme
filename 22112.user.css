@@ -1,0 +1,100 @@
+/* ==UserStyle==
+@name         ABFielder Dark Theme
+@version      20250427.01.46
+@namespace    https://userstyles.world/user/cursedgabo
+@description  Dark theme for abfielder.com
+@author       cursedgabo
+==/UserStyle== */
+
+/* ==UserStyle==
+@name           ABFielder Dark Theme
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Dark theme for abfielder.com
+@author         cursedgabo
+==/UserStyle== */
+
+@-moz-document domain("abfielder.com") {
+body,
+html {
+    background-color: #000000 !important;
+    color: #fff !important;
+}
+
+.container,
+.main-content,
+.page-wrapper,
+.section,
+.content-area {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffffff !important;
+}
+
+a {
+    color: #c2e4ff !important;
+}
+
+a:hover {
+    color: #c2e4ff !important;
+}
+
+header,
+footer,
+nav,
+.navbar,
+.footer {
+    background-color: #1a1a1a !important;
+    border-color: #333333 !important;
+}
+
+button,
+.button,
+.btn,
+input[type="button"],
+input[type="submit"] {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+    border-color: #444444 !important;
+}
+
+button:hover,
+.button:hover,
+.btn:hover {
+    background-color: #444444 !important;
+}
+
+input,
+textarea,
+select {
+    background-color: #222222 !important;
+    color: #e0e0e0 !important;
+    border-color: #333333 !important;
+}
+
+table,
+th,
+td {
+    background-color: #1a1a1a !important;
+    border-color: #333333 !important;
+}
+
+tr:nth-child(even) {
+    background-color: #222222 !important;
+}
+
+.card,
+.panel,
+.box {
+    background-color: #1a1a1a !important;
+    border-color: #333333 !important;
+}
+}
